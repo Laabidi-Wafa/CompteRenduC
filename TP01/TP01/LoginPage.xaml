@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.LoginPage">
+    <StackLayout>
+        <Entry x:Name="UserEmail" Keyboard="Email"
+               Placeholder="Entrez votre Email"
+               MaxLength="50"
+               />
+        <Entry x:Name="UserPW" IsPassword="True"
+               Placeholder="Entrez votre mot de passe"
+               MaxLength="50"
+               />
+        <Button Text="Login"
+                Clicked="Button_Clicked"
+                />
+        <Label x:Name="statusMsg"
+               TextColor="Red"/>
+
+    </StackLayout>
+    
+</ContentPage>

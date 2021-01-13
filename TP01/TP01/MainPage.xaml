@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="SkyBlue"
+           HeightRequest="100">
+            <Label Text="Welcome !!"
+                   TextColor="white"
+                   FontSize="30"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"/>
+                  
+        </Frame>
+    <StackLayout>
+       
+
+        <Button Text="Login"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="LightSkyBlue"
+                CornerRadius="15"
+                Margin="15"
+                
+                Clicked="Button_Clicked"
+                />
+            <Button Text="Inscription"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="LightSkyBlue"
+                CornerRadius="15"
+                Margin="15"
+                Clicked="InscriptionPageNav"
+                />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
